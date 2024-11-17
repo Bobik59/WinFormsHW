@@ -9,7 +9,7 @@ namespace SPHWModulThreeCastOne
         private volatile bool stopPrime = false;
         private volatile bool stopFibonacci = false;
 
-        private ManualResetEvent primePause = new ManualResetEvent(true);
+        private ManualResetEvent primePause = new ManualResetEvent(true);//
         private ManualResetEvent fibonacciPause = new ManualResetEvent(true);
         public Form1()
         {
